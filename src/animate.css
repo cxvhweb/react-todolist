@@ -1,0 +1,12 @@
+/* 入场动画 */
+.fade-appear{opacity: 0;}
+.fade-appear-active{opacity: 1;transition: opacity 1s ease-in;}
+.fade-appear-done{opacity: 1;}/*如果不需要用到可删除*/
+/* 点击入场 */
+.fade-enter{opacity: 0;}
+.fade-enter-active{opacity: 1;transition: opacity 1s ease-in;}
+.fade-enter-done{opacity: 1;}/*如果不需要用到可删除*/
+/* 点击出场 */
+.fade-exit{opacity: 1;}
+.fade-exit-active{opacity: 0;transition: opacity 1s ease-in;}
+.fade-exit-done{opacity: 0;}/*如果不需要用到可删除*/
